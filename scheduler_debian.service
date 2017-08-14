@@ -1,0 +1,12 @@
+[UNIT]
+Description=Message handler service
+After=syslog.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/scheduler
+
+[Install]
+WantedBy=multi-user.target
+

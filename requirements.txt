@@ -1,0 +1,2 @@
+web.py==0.38
+netifaces==0.10.4
